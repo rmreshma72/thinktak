@@ -1,0 +1,136 @@
+
+.navbar-nav>li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#myInput {
+
+  width: 150%;
+  font-size: 16px;
+  padding: 3% 10% 3% 0;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+.collapse{
+  position: relative;
+  left: 30%;
+}
+
+
+.search {
+  position: relative;
+  right: 30%;
+}
+
+.options {
+  background-color: #EEEEEE;
+  padding-bottom: 7%;
+  column-gap: 20%;
+}
+
+.a1 {
+  background-color: #fff;
+  width: 40%;
+  height: 50%;
+  line-height: 1.5rem;
+  text-align: left;
+  border-radius: 25px;
+  border-style: groove groove groove solid;
+  border-color: #EFFFFD;
+  border-left-color: #F0A500;
+  border-width: 2px;
+}
+
+.brand-img {
+  position: relative;
+  left: 60%;
+  float: left;
+  width: 60%;
+  height: auto;
+}
+
+.form-group {
+  float: left;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: normal;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.intro {
+  padding: 7% 15%;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+  font-family: sans-serif;
+  line-height: 1.5rem;
+}
+
+h2 {
+  padding: 3% 15%;
+  text-align: center;
+  color: pink;
+}
+
+p {
+  font-weight: bold;
+}
+
+.title-image {
+  width: 90%;
+  height: 80%;
+  position: absolute;
+}
+
+.sub {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  color: #C65D7B;
+  font-weight: bold;
+  width: 200px;
+  height: auto;
+}
+
+img {
+  float: right;
+  height: 100px;
+}
+
+.foot {
+  text-align: center;
+  padding: 3% 15%;
+  background-color: black;
+}
+
+.social-icon {
+  margin: 2% 1%;
+}
+@media (max-width: 1028px) {
+  .collapse{
+    position: relative;
+    right: 5%;
+  }
+  .navbar-brand{
+    width:60%;
+  }
+
+  .big-heading {
+    text-align: center;
+  }
+  p{
+    text-align: center
+  }
+  .title-image {
+    position: static;
+  }
+}
